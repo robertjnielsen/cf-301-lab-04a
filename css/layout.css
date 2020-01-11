@@ -43,3 +43,60 @@ section {
   height: 5rem;
   line-height: 5rem;
 }
+
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      'a a a a'
+      'b b b b'
+      'c c d d'
+      'e e g g'
+      'i i i i';
+  }
+  .section-a {
+    height: 6.25rem;
+    line-height: 6.25rem;
+    grid-area: a;
+  }
+
+  .section-b {
+    height: 7.5rem;
+    line-height: 7.5rem;
+    grid-area: b;
+  }
+
+  .section-c {
+    grid-area: c;
+  }
+
+  .section-d {
+    grid-area: d;
+  }
+
+  .section-c,
+  .section-d {
+    height: 12.5rem;
+    line-height: 12.5rem;
+  }
+
+  .section-ef {
+    grid-area: e;
+  }
+
+  .section-gh {
+    grid-area: g;
+  }
+
+  .section-ef,
+  .section-gh {
+    height: 15.625rem;
+    line-height: 15.625rem;
+  }
+
+  .section-i {
+    height: 9.375rem;
+    line-height: 9.375rem;
+    grid-area: i;
+  }
+}
