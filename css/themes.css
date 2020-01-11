@@ -1,0 +1,73 @@
+.section-a {
+    background-color: lightblue;
+}
+
+.section-b {
+    background-color: lightcoral;
+}
+
+.section-c {
+    background-color: lightslategray;
+}
+
+.section-d {
+    background-color: lime;
+}
+
+.div-e {
+    background-color: maroon;
+}
+
+.div-f {
+    background-color: midnightblue;
+}
+
+.div-g {
+    background-color: white;
+}
+
+.div-h {
+    background-color: yellow;
+}
+
+.section-i {
+    background-color: brown;
+}
+
+@media (min-width: 768px) {
+    .section-a {
+        background-color: maroon;
+    }
+    
+    .section-b {
+        background-color: brown;
+    }
+    
+    .section-c {
+        background-color: yellow;
+    }
+    
+    .section-d {
+        background-color: white;
+    }
+    
+    .div-e {
+        background-color: lightblue;
+    }
+    
+    .div-f {
+        background-color: lime;
+    }
+    
+    .div-g {
+        background-color: lightcoral;
+    }
+    
+    .div-h {
+        background-color: lightslategray;
+    }
+    
+    .section-i {
+        background-color: midnightblue;
+    }
+}
